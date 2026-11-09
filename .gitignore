@@ -1,0 +1,56 @@
+# Python environment and secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Test and coverage artifacts
+.coverage
+.coverage.*
+htmlcov/
+coverage.json
+*.xml
+
+# Local vector databases and generated indexes
+.qdrant/
+qdrant_data/
+chroma_data/
+.chroma/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.faiss
+*.index
+
+# Private user data and uploaded documents
+data/*
+!data/.gitkeep
+
+# Evaluation output and diagnostic reports
+reports/*
+!reports/.gitkeep
+
+# Temporary files, logs, and tooling cache
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+logs/
+.uv-cache/
+.python/
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,9 @@
+# Initial ingestion: text-based PDF and DOCX. Plain text uses the standard library.
+pypdf
+python-docx
+python-dotenv
+pytest
+google-genai>=1.0,<2
+qdrant-client>=1.20,<2
+portalocker>=2.7,<5
+gradio==6.31.0
